@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Smart Attendance System</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        background-color: #f4f4f4;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      }
+      .section {
+        background-color: #e9f1fa;
+        padding: 15px;
+        border-radius: 10px;
+      }
+      h2 {
+        color: #0a4b78;
+        font-size: 18px;
+        margin-top: 0;
+      }
+      .header {
+        grid-column: span 3;
+        text-align: center;
+        background-color: #0a4b78;
+        color: white;
+        padding: 15px;
+        border-radius: 10px;
+      }
+      .footer {
+        grid-column: span 3;
+        background-color: #e6ffe6;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 14px;
+      }
+      img {
+        max-width: 100%;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          src="./hello.png"
+          alt="sathyabama logo"
+        />
+        <h1>EchoFinder - Never Lose Your Things Again</h1>
+        <p>
+          <strong>Team Members:</strong> Teja,Sai Tharang,Yukesh,Yathes,Krishna Roshan,Satwik,Sarjeevan
+        </p>
+        <p><strong>Mentor:</strong> Mrs. Hemalatha, Assistant Professor, CSE</p>
+      </div>
+
+      <div class="section">
+        <h2>Abstract</h2>
+        <p>
+          This project introduces an RFID-based smart attendance system that
+          replaces manual methods with contactless automation. The system
+          improves efficiency, accuracy, and security using RFID tags and
+          microcontroller integration.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Objectives</h2>
+        <ul>
+          <li>Automate student attendance using RFID.</li>
+          <li>Display attendance status on LCD.</li>
+          <li>Reduce proxy and manual errors.</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Introduction</h2>
+        <p>
+          RFID technology allows wireless identification of students using
+          cards. This system logs attendance when a valid RFID tag is scanned
+          and displays it on an LCD. The project provides a scalable solution
+          for institutions.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Proposed Methodology</h2>
+        <p>
+          Each student has an RFID card. When scanned, the RFID reader reads the
+          tag UID and sends it to Arduino. If matched with a registered ID, the
+          LCD shows "Attendance Marked". The buzzer alerts for invalid tags.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Hardware and Software</h2>
+        <ul>
+          <li>Arduino Uno</li>
+          <li>RFID RC522 Module</li>
+          <li>16x2 LCD Display</li>
+          <li>Buzzer</li>
+          <li>Breadboard & Jumper Wires</li>
+          <li>Arduino IDE</li>
+        </ul>
+      </div>
+      <div class="section">
+        <h2>Conclusion</h2>
+        <p>
+          This project demonstrates an efficient and contactless method of
+          attendance monitoring. The system reduces manual workload, ensures
+          accuracy, and can be deployed across schools and colleges.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Architecture</h2>
+        <img
+          src="./hii.png"
+          alt="Architecture Diagram"
+        />
+      </div>
+      <div class="section">
+        <h2>Implementation & Results</h2>
+        <p>
+          The setup was implemented and successfully tested in a prototype
+          environment. RFID tags were recognized, attendance marked and
+          displayed correctly. The system reduced time and improved accuracy.
+        </p>
+        <img
+          src="./whats.jpg"
+          alt="Project Photo"
+        />
+      </div>
+
+      <div class="section">
+        <h2>References</h2>
+        <p>
+            Ula, Mutammimul, et al. "A New Model of The Student Attendance  Monitoring 
+            System Using RFID Technology." Journal of Physics:     
+            Conference Series. Vol. 1807. No. 1. IOP Publishing, 2021.     
+            Nivetha, R., et al. "Student Attendance System Using RFID." International  
+            Journal of Research in Engineering, Science and Management 3.10 (2020): 16-   
+            19.
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Acknowledgment</h2>
+        <p>
+          We thank our mentor Mrs. Hemalatha for her constant support. We also
+          thank our college, our faculty, and our teammates for their
+          contributions and collaboration in making this project successful.
+        </p>
+      </div>
+
+      
+  </body>
+</html>
